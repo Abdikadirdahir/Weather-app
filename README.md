@@ -1,7 +1,9 @@
 # Weather-app
 
 Completed Accpetance 
-![2021-04-17_2006](https://user-images.githubusercontent.com/61722709/115132835-9f479700-9fb8-11eb-8a65-25db6431ed59.png)
+
+![2021-04-17_2024](https://user-images.githubusercontent.com/61722709/115133166-f8182f00-9fba-11eb-9f06-6602294b8ff4.png)
+
 
 GIVEN a weather dashboard with form inputs
 WHEN I search for a city
