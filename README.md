@@ -2,7 +2,7 @@
 
 Completed Accpetance 
 
-![2021-04-17_2024](https://user-images.githubusercontent.com/61722709/115133166-f8182f00-9fba-11eb-9f06-6602294b8ff4.png)
+https://abdikadirdahir.github.io/Weather-app/
 
 
 GIVEN a weather dashboard with form inputs
@@ -17,5 +17,6 @@ THEN I am presented with a 5-day forecast that displays the date, an icon repres
 WHEN I click on a city in the search history
 THEN I am again presented with current and future conditions for that city
 
-https://github.com/Abdikadirdahir/Weather-app
+![2021-04-26_1711](https://user-images.githubusercontent.com/61722709/116166259-7c04a200-a6b2-11eb-80d8-f4c3d5531047.png)
+
 ```
