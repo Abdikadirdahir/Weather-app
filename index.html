@@ -9,71 +9,52 @@
     
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
    
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="main.css">
     <title>Weather Dashboard</title>
 </head>
 <body>
+<div class="jumpbotron text-center pt-3 bg-dark text-white ">
+    <h1>Weather Dashboard</h1>
+</div>
 
+<div class="container-fluid pt-3">
+    <h4> Search for city: </h4>
+
+
+<div class="input">
+    <input type="text" id="myInput"  placeholder="City Search.." >
+        <button class=" btn  bg-primary text-light" id="search-button"><i class="fa fa-search"></i></button>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-4 bg-light">
+<h4 id="recently-searched ">recently searched:</h4>
+<ul id="list-group">
+
+
+</ul>
+<button class=" btn btn-primary" type="button" id="clear-history">Clear history</button>
+                <ul class="list-group">
    
-    <div class="bg-dark pt-2 pb-2"> 
-        <div class="container">
-            <h1 class="text-center text-white">Weather Dashboard</h1>
+</div>
+<div class="col-sm-8">
+    <div class="row ml-2 border border-dark rounded">
+        <div class="col-sm-12" id="current-weather">
+            <h3 class="city-name mb-1 mt-2 bolder" id="current-city"></h3>
+            <h5><span class="current" id="city"></span></h5>
+            <p>temperature:<span class="current" id="temperature"></span></p>
+            <p>Humidity:<span class="current" id="humidity"></span></p> 
+            <p>Wind Speed:<span class="current" id="wind-speed"></span></p>
+            <p><span class="current bg-danger rounded py-2 px-2 text-white" id="uv-index">UV index:</span></p> 
+        </div>
+
+        <div class="col-md-8">
+            <div class="row ml-2 border border-dark rounded"></div>
+            <h3 id="forecast">5 day forecast</h3>
+            <p>temperature:<span class="current" id="temperature2"></span></p>
+            <p>Humidity:<span class="current" id="humidity2"></span></p> 
         </div>
     </div>
-  
-
-    
-    <div class="container-fluid"> 
-
-       
-        <div class="row"> 
-
-            
-            <div class="col-lg-3 bg-light pt-3 pb-3"> 
-
-                <h5>Search for a city:</h5>
-
-             
-                <div class="input-group mb-3"> 
-                    <input id="searchTerm" type="text" class="form-control" placeholder="City name..." class="input-group-append">
-                    <button id="searchBtn" class="btn btn-primary" type="button" id="button-addon2"><i class="far fa-search"></i></button>
-                </div>
-               
-                
-                <div class="card"> 
-                    <ul class="list-group list-group-flush list">
-                    </ul>
-                </div> 
-                
-            </div> 
-            
-
-           
-            <div class="col-lg-9"> 
-                <div id="currentCity" class="mt-4">
-                    
-                </div>
-            </div> 
-           
-        </div> 
-       
-
-        
-        <div class="mt-4 col-md-12"> 
-
-            <h5 id="forecastH5" class="mt-3 hide">5-Day Forecast:</h5>
-
-       
-            <div id="forecast" class="row"> 
-
-
-            </div> 
-          
-        </div> 
-     
-    </div> 
-  
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="main.js"></script>
 </body>
